@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10111" started-at="2021-12-30T10:15:33 CAT" finished-at="2021-12-30T10:15:43 CAT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="10111" started-at="2021-12-30T10:15:33 CAT" finished-at="2021-12-30T10:15:43 CAT">
+      <class name="TestCases.LoginPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.LoginPage@7181ae3f]" name="setup" is-config="true" duration-ms="10517" started-at="2021-12-30T10:15:22 CAT" finished-at="2021-12-30T10:15:33 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyLogin(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginPage@7181ae3f]" name="VerifyLogin" duration-ms="957" started-at="2021-12-30T10:15:33 CAT" data-provider="Login Data" finished-at="2021-12-30T10:15:34 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvalidUSer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uvujAmE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="VerifyLogin(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginPage@7181ae3f]" name="VerifyLogin" duration-ms="3083" started-at="2021-12-30T10:15:34 CAT" data-provider="Login Data" finished-at="2021-12-30T10:15:37 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr356545]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[InvalidPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="VerifyLogin(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginPage@7181ae3f]" name="VerifyLogin" duration-ms="2590" started-at="2021-12-30T10:15:37 CAT" data-provider="Login Data" finished-at="2021-12-30T10:15:40 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvalidUSer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[InvalidPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="VerifyLogin(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginPage@7181ae3f]" name="VerifyLogin" duration-ms="3405" started-at="2021-12-30T10:15:40 CAT" data-provider="Login Data" finished-at="2021-12-30T10:15:43 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr377675]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pYnEsym]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+      </class> <!-- TestCases.LoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
